@@ -12,7 +12,7 @@ In order to use the LT Web Services API (and this library), you need to register
 == Using the Library
 The gem uses HTTParty and Nokogiri for fetching and processing responses. Both of the gems must be installed.
 
-    $ gem install httparty nokogiri
+    $ gem install httparty nokogiri librarything-api
 
     $ irb -r rubygems
     require 'librarything'
