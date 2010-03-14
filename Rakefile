@@ -13,6 +13,8 @@ begin
     gem.add_development_dependency "rspec", ">= 1.3.0"
     gem.add_development_dependency "fakeweb", ">= 1.2.8"
     gem.add_development_dependency "yard", ">= 0"
+    gem.add_development_dependency "rack", ">= 1.0.0"
+    gem.add_development_dependency "rcov", ">= 0.9.8"
     gem.add_dependency "httparty", ">= 0.5.2"
     gem.add_dependency "nokogiri", ">= 1.4.1"
   end
