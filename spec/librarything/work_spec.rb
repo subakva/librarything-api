@@ -60,6 +60,8 @@ describe LibraryThing::Work do
       epigraph['name'].should == 'epigraph'
       epigraph['displayName'].should == 'Epigraph'
       epigraph['versionList'].size.should == 1
+      
+      work['garbage'].should be_nil
     end
 
     it "retrieves a work by id" do

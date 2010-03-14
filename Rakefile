@@ -15,7 +15,6 @@ begin
     gem.add_development_dependency "yard", ">= 0"
     gem.add_dependency "httparty", ">= 0.5.2"
     gem.add_dependency "nokogiri", ">= 1.4.1"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
@@ -24,6 +23,7 @@ end
 
 require 'spec/rake/spectask'
 Spec::Rake::SpecTask.new(:spec) do |spec|
+  spec.ruby_opts << ['-r rubygems']
   spec.libs << 'lib' << 'spec'
   spec.spec_files = FileList['spec/**/*_spec.rb']
 end
