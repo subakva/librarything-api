@@ -19,6 +19,7 @@ rdoc
 pkg
 doc
 .yardoc
+*.gemspec
 
 ## PROJECT::SPECIFIC
 credentials.rb
