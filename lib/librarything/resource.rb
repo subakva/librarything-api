@@ -1,19 +1,28 @@
-require 'httparty'
-
 module LibraryThing
 
+  # Helper class to wrap a Nokogiri node. It includes a simplified method for accessing DOM content.
   class NodeWrapper
 
     attr_reader :node
 
+    # Creates a new wrapped XML node
     def initialize(node)
       @node = node
     end
 
+    # Returns the content of the node
     def content
       @node.content
     end
 
+    # Extracts values from the node.
+    # 
+    # * If the name matches the name of an attribute, the value of that attribute will be returned
+    # * If the name matches the name of a single child element, that element is returned.
+    # * If the matching child element only contains text data, the text data is returned.
+    # * If the matching child element is named xxxList, an array of the children of the element is returned
+    # * If there is more that one matching child element, they are returned as an array.
+    # 
     def [](name)
       # Check for attributes first. Why? It works for the LT xml (for now).
       if @node.attributes.has_key?(name)
@@ -21,12 +30,13 @@ module LibraryThing
       end
 
       # Find child elements with that name
-      children = @node.xpath("lt:#{name}")
+      children = @node.xpath("./lt:#{name}")
       if children.size == 1
         child = children.first
-      
-        # LT-specific hack to simplify access to lists. Ill-advised?
-        if child.name =~ /^[\w]*List$/
+        if self.text_element?(child)
+          return child.children.first.content
+        elsif child.name =~ /^[\w]*List$/
+          # LT-specific hack to simplify access to lists. Ill-advised?
           return wrap_children(child.children)
         else
           return NodeWrapper.new(child)
@@ -40,11 +50,18 @@ module LibraryThing
 
     protected
 
+    # Checks whether the node is an element with no attributes and a single text child
+    def text_element?(node)
+      node.element? && node.attributes.empty? && node.children.size == 1 && node.children.first.text?
+    end
+
+    # Creates and returns an array of wrapped nodes for each element in the NodeSet
     def wrap_children(children)
       children.map { |c| NodeWrapper.new(c) if c.element? }.compact
     end
   end
 
+  # Base class for fetching and parsing data from the LT WebServices APIs
   class Resource
     include HTTParty
     base_uri 'http://www.librarything.com/services/rest/1.0'
@@ -53,12 +70,15 @@ module LibraryThing
     attr_reader :document
     attr_reader :item_node
 
+    # Accepts xml from an LT API request and creates a wrapper object. If there is a problem with the format of the
+    # xml, a LibraryThing::Error will be raised.
     def initialize(xml)
       @xml = xml
       @document = self.parse_response(@xml)
       @item_node = self.find_item_node(@document)
     end
 
+    # See: LibraryThing::NodeWrapper#[](name)
     def [](name)
       @item_node[name]
     end
@@ -95,6 +115,9 @@ module LibraryThing
     end
 
     class << self
+
+      # Gets or sets the method name that will be passed to the LT web service.
+      # Generally, this will be specified in a sub-class.
       def get_method(method_name = nil)
         if method_name
           @get_method = method_name
@@ -105,6 +128,8 @@ module LibraryThing
         end
       end
 
+      # Accepts a hash of query params, and generates a request to the LT API. Returns a wrapped response object. If
+      # there is a problem with the request, a LibraryThing::Error will be raised.
       def get(query)
         raise LibraryThing::Error.new("Missing developer key. Please define LibraryThing::DEVELOPER_KEY") unless defined?(LibraryThing::DEVELOPER_KEY)
 

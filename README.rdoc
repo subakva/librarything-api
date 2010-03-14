@@ -1,6 +1,34 @@
 = librarything-api
 
-Description goes here.
+This is a Ruby wrapper for the LibraryThing API.
+
+== Accessing LibraryThing APIs
+In order to use the LT Web Services API (and this library), you need to register for a developer key on librarything.com
+
+* Sign into your LT account at http://www.librarything.com
+* Go to http://www.librarything.com/services/keys.php and fill out the form to receive a developer key
+* Documentation for the LT Web Services API can be found at http://www.librarything.com/services/webservices.php
+
+== Using the Library
+The gem uses HTTParty and Nokogiri for fetching and processing responses. Both of the gems must be installed.
+
+    $ gem install httparty nokogiri
+
+    $ irb -r rubygems
+    require 'librarything'
+    LibraryThing::DEVELOPER_KEY = 'abcdef0123456789abcdef'
+    strange = LibraryThing::Work.get(:name => 'Jonathan Strange')
+    strange['url']
+    # "http://www.librarything.com/work/1060"
+
+== To Do
+* Improve code documentation
+
+== Other LT APIs to Add
+
+* Helpers for accessing LT JSON APIs (Books, Works) (No server-side fetching allowed.)
+* Helper for generating LT Covers URLs
+* See: http://www.librarything.com/wiki/index.php/LibraryThing_APIs
 
 == Note on Patches/Pull Requests
  

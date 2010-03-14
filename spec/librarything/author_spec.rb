@@ -44,13 +44,13 @@ describe LibraryThing::Author do
     def check_author_response(author)
       author.should_not be_nil
       author['id'].should == '216'
-      author['url'].content.should == 'http://www.librarything.com/author/216'
+      author['url'].should == 'http://www.librarything.com/author/216'
 
       author_element = author['author']
       author_element.should_not be_nil
       author_element['id'].should == '216'
       author_element['authorcode'].should == 'clarkesusanna'
-      author_element['name'].content.should == 'Susanna Clarke'
+      author_element['name'].should == 'Susanna Clarke'
       
       field_list = author['commonknowledge']['fieldList']
       field_list.size.should == 8

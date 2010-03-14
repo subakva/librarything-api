@@ -44,7 +44,7 @@ describe LibraryThing::Work do
     def check_work_response(work)
       work.should_not be_nil
       work['id'].should == '1060'
-      work['url'].content.should == 'http://www.librarything.com/work/1060'
+      work['url'].should == 'http://www.librarything.com/work/1060'
 
       author = work['author']
       author.should_not be_nil
