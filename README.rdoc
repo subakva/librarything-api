@@ -21,9 +21,6 @@ The gem uses HTTParty and Nokogiri for fetching and processing responses. Both o
     strange['url']
     # "http://www.librarything.com/work/1060"
 
-== To Do
-* Improve code documentation
-
 == Other LT APIs to Add
 
 * Helpers for accessing LT JSON APIs (Books, Works) (No server-side fetching allowed.)
