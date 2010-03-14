@@ -1,7 +1,7 @@
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe "LibrarythingApi" do
-  it "fails" do
-    fail "hey buddy, you should probably rename this file and start specing for real"
+  it "should require the librarything library" do
+    defined?(LibraryThing).should be_true
   end
 end

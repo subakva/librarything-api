@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<response stat="ok">
+  <ltml xmlns="http://www.librarything.com/" version="1.0">
+    <item id="216" type="author">
+      <author id="216" authorcode="clarkesusanna">
+        <name>Susanna Clarke</name>
+      </author>
+      <url>http://www.librarything.com/author/216</url>
+      <commonknowledge>
+        <fieldList>
+          <field type="6" name="placesofresidence" displayName="Places of residence">
+            <versionList>
+              <version id="1215367" archived="0" lang="eng">
+                <date timestamp="1236540583">Sun, 08 Mar 2009 15:29:43 -0400</date>
+                <person id="617371">
+                  <name>C.S._Lewis</name>
+                  <url>http://www.librarything.com/profile/C.S._Lewis</url>
+                </person>
+                <factList>
+                  <fact>County Durham, England, UK</fact>
+                  <fact>Nottingham, Nottinghamshire, England, UK (birth)</fact>
+                  <fact>Cambridge, Cambridgeshire, England, UK</fact>
+                  <fact>Oxford, Oxfordshire, England, UK</fact>
+                  <fact>Bilbao, Spain</fact>
+                  <fact>Turin, Italy</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="22" name="canonicalname" displayName="Canonical name">
+            <versionList>
+              <version id="645774" archived="0" lang="eng">
+                <date timestamp="1223010501">Fri, 03 Oct 2008 01:08:21 -0400</date>
+                <person id="116044">
+                  <name>Shortride</name>
+                  <url>http://www.librarything.com/profile/Shortride</url>
+                </person>
+                <factList>
+                  <fact>Clarke, Susanna</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="9" name="education" displayName="Education">
+            <versionList>
+              <version id="295469" archived="0" lang="eng">
+                <date timestamp="1206327674">Sun, 23 Mar 2008 23:01:14 -0400</date>
+                <person id="108140">
+                  <name>DisassemblyOfReason</name>
+                  <url>http://www.librarything.com/profile/DisassemblyOfReason</url>
+                </person>
+                <factList>
+                  <fact>Oxford University (St. Hilda's, 1981)</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="18" name="nationality" displayName="Nationality">
+            <versionList>
+              <version id="291288" archived="0" lang="eng">
+                <date timestamp="1206114287">Fri, 21 Mar 2008 11:44:47 -0400</date>
+                <person id="45396">
+                  <name>bw42</name>
+                  <url>http://www.librarything.com/profile/bw42</url>
+                </person>
+                <factList>
+                  <fact>UK</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="17" name="occupations" displayName="Occupations">
+            <versionList>
+              <version id="272547" archived="0" lang="eng">
+                <date timestamp="1204897922">Fri, 07 Mar 2008 08:52:02 -0500</date>
+                <person id="55491">
+                  <name>Osbaldistone</name>
+                  <url>http://www.librarything.com/profile/Osbaldistone</url>
+                </person>
+                <factList>
+                  <fact>editor</fact>
+                  <fact>writer</fact>
+                  <fact>author</fact>
+                  <fact>novelist</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="4" name="awards" displayName="Awards and honors">
+            <versionList>
+              <version id="87001" archived="0" lang="eng">
+                <date timestamp="1194126277">Sat, 03 Nov 2007 17:44:37 -0400</date>
+                <person id="116044">
+                  <name>Shortride</name>
+                  <url>http://www.librarything.com/profile/Shortride</url>
+                </person>
+                <factList>
+                  <fact>British Book Award (Newcomer of the Year, 2005)</fact>
+                  <fact>Waterstones 25 Authors for the Future (2007)</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="8" name="birthdate" displayName="Birthdate">
+            <versionList>
+              <version id="36742" archived="0" lang="eng">
+                <date timestamp="1192329357">Sat, 13 Oct 2007 22:35:57 -0400</date>
+                <person id="198088">
+                  <name>AnnaClaire</name>
+                  <url>http://www.librarything.com/profile/AnnaClaire</url>
+                </person>
+                <factList>
+                  <fact>1959-11-01</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="5" name="gender" displayName="Gender">
+            <versionList>
+              <version id="7537" archived="0" lang="eng">
+                <date timestamp="1191988667">Tue, 09 Oct 2007 23:57:47 -0400</date>
+                <person id="1496">
+                  <name>felius</name>
+                  <url>http://www.librarything.com/profile/felius</url>
+                </person>
+                <factList>
+                  <fact>female</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+        </fieldList>
+      </commonknowledge>
+    </item>
+    <legal>By using this data you agree to the LibraryThing API terms of service.</legal>
+  </ltml>
+</response>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response stat="fail">
+  <err code="105">Could not find work ID matching supplied arguments</err>
+</response>

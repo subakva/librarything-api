@@ -1,0 +1,3 @@
+<font color=ff0000>
+Fatal error: Call to undefined method WS_CommonKnowledge::returnError() in /var/www/html/services/rest/1.0/index.php on line 65
+</font>

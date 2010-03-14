@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response stat="fail">
+  <err code="106">Could not determine author from supplied arguments</err>
+</response>

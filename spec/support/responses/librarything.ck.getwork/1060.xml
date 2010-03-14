@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<response stat="ok">
+  <ltml xmlns="http://www.librarything.com/" version="1.0">
+    <item id="1060" type="work">
+      <author id="216" authorcode="clarkesusanna">Susanna Clarke</author>
+      <url>http://www.librarything.com/work/1060</url>
+      <commonknowledge>
+        <fieldList>
+          <field type="28" name="epigraph" displayName="Epigraph">
+            <versionList>
+              <version id="2184856" archived="0" lang="eng">
+                <date timestamp="1265498292">Sat, 06 Feb 2010 18:18:12 -0500</date>
+                <person id="684944">
+                  <name>fig2</name>
+                  <url>http://www.librarything.com/profile/fig2</url>
+                </person>
+                <factList>
+                  <fact>&lt;![CDATA[ He hardly ever spoke of magic, and when he did it was like a history lesson and no one could bear to listen to him. ]]&gt;</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="4" name="awards" displayName="Awards and honors">
+            <versionList>
+              <version id="2138966" archived="0" lang="eng">
+                <date timestamp="1264486541">Tue, 26 Jan 2010 01:15:41 -0500</date>
+                <person id="849103">
+                  <name>LamontCranston</name>
+                  <url>http://www.librarything.com/profile/LamontCranston</url>
+                </person>
+                <factList>
+                  <fact>World Fantasy Award (Novel, 2005)</fact>
+                  <fact>Hugo (Novel, 2005)</fact>
+                  <fact>British Fantasy Award Nominee (August Derleth Fantasy Award, 2005)</fact>
+                  <fact>British Science Fiction Association Award Shortlist (2004)</fact>
+                  <fact>Nebula Nominee (Novel, 2005)</fact>
+                  <fact>SF Site Editor's Choice (#1, 2004)</fact>
+                  <fact>Book Sense Book of the Year (2005.8 | Adult Fiction Winner, 2005)</fact>
+                  <fact>Whitbread Shortlist (First Novel, 2004)</fact>
+                  <fact>Locus Recommended Reading (First Novel, 2004)</fact>
+                  <fact>SF Site Reader's Choice (#1, 2004)</fact>
+                  <fact>Guardian 1000 (Science Fiction &amp; Fantasy)</fact>
+                  <fact>Time Magazine's Best Books of the Year (2004.10|Fiction (1), 2004)</fact>
+                  <fact>Salon Book Award (2004)</fact>
+                  <fact>Booker Prize Longlist (2004)</fact>
+                  <fact>Guardian First Book Award (Shortlist, 2004)</fact>
+                  <fact>British Book Award (Literary Fiction Award Shortlist, 2005)</fact>
+                  <fact>Locus (First Novel, 2005)</fact>
+                  <fact>Mythopoeic Fantasy Award (Adult Literature, 2005)</fact>
+                  <fact>British Book Award (Newcomer of the Year, 2005)</fact>
+                  <fact>Geffen Award (Best Translated Fantasy Book, 2007)</fact>
+                  <fact>thisrecording.com 100 Greatest Science Fiction or Fantasy Novels of All Time (95)</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="3" name="characternames" displayName="People/Characters">
+            <versionList>
+              <version id="1931873" archived="0" lang="eng">
+                <date timestamp="1258228496">Sat, 14 Nov 2009 14:54:56 -0500</date>
+                <person id="108140">
+                  <name>DisassemblyOfReason</name>
+                  <url>http://www.librarything.com/profile/DisassemblyOfReason</url>
+                </person>
+                <factList>
+                  <fact>Jonathan Strange</fact>
+                  <fact>Gilbert Norrell</fact>
+                  <fact>The gentleman with thistle-down hair</fact>
+                  <fact>Stephen Black</fact>
+                  <fact>Lady Pole</fact>
+                  <fact>John Childermass</fact>
+                  <fact>Mr. Christopher Drawlight</fact>
+                  <fact>John Segundus</fact>
+                  <fact>Mr. Honeyfoot</fact>
+                  <fact>Dr. Foxcastle</fact>
+                  <fact>Mrs. Pleasance</fact>
+                  <fact>Mr. Thorpe</fact>
+                  <fact>Mrs. Godesdone</fact>
+                  <fact>Mr. Lascelles</fact>
+                  <fact>Vinculus</fact>
+                  <fact>John Uskglass (The Raven King)</fact>
+                  <fact>Arabella Strange</fact>
+                  <fact>Sir Walter Pole</fact>
+                  <fact>Emma Wintertowne</fact>
+                  <fact>Napoleon Bonaparte</fact>
+                  <fact>Arthur Wellesley, 1st Duke of Wellington</fact>
+                  <fact>George III, King of the United Kingdom</fact>
+                  <fact>Flora Greysteel</fact>
+                  <fact>Signor Tosetti</fact>
+                  <fact>The old lady of Cannregio</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="2" name="placesmentioned" displayName="Important places">
+            <versionList>
+              <version id="1902680" archived="0" lang="eng">
+                <date timestamp="1257306914">Tue, 03 Nov 2009 22:55:14 -0500</date>
+                <person id="108140">
+                  <name>DisassemblyOfReason</name>
+                  <url>http://www.librarything.com/profile/DisassemblyOfReason</url>
+                </person>
+                <factList>
+                  <fact>London, England, UK</fact>
+                  <fact>York, Yorkshire, England, UK</fact>
+                  <fact>Faerie (fictional)</fact>
+                  <fact>France</fact>
+                  <fact>Portugal</fact>
+                  <fact>Venice, Veneto, Italy</fact>
+                  <fact>York Cathedral, York, Yorkshire, England, UK</fact>
+                  <fact>Shropshire, England, UK</fact>
+                  <fact>Lost-Hope, Faerie (fictional)</fact>
+                  <fact>Padua, Veneto, Italy</fact>
+                  <fact>Eternal Night (fictional)</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="36" name="mediareviews" displayName="Media reviews">
+            <versionList>
+              <version id="1889043" archived="0" lang="eng">
+                <date timestamp="1256884900">Fri, 30 Oct 2009 02:41:40 -0400</date>
+                <person id="116044">
+                  <name>Shortride</name>
+                  <url>http://www.librarything.com/profile/Shortride</url>
+                </person>
+                <factList>
+                  <fact>129</fact>
+                  <fact>145</fact>
+                  <fact>146</fact>
+                  <fact>276</fact>
+                  <fact>1029</fact>
+                  <fact>4977</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="27" name="quotations" displayName="Quotations">
+            <versionList>
+              <version id="1633900" archived="0" lang="eng">
+                <date timestamp="1248286869">Wed, 22 Jul 2009 14:21:09 -0400</date>
+                <person id="515980">
+                  <name>aynar</name>
+                  <url>http://www.librarything.com/profile/aynar</url>
+                </person>
+                <factList>
+                  <fact>&lt;![CDATA[ At sixteen she spoke -- not only French, Italian and German -- which are part of any lady's commonplace accomplishments -- but all the languages of the civilized (and uncivilized) world. She spoke the language of the Scottish Highlands (which is like singing). She spoke Basque, which is a language which rarely makes any impression upon the brains of any other race, so that a man may hear it as often and as long as he likes, but never afterwards be able to recall a single syllable of it. She even learnt the language of a strange country which, Signor Tosetti had been told, some people believed still existed, although no one in the world could say where it was. (The name of the country was Wales.) ]]&gt;</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="1" name="literaryeditors" displayName="Publisher's editor">
+            <versionList>
+              <version id="1548889" archived="0" lang="eng">
+                <date timestamp="1245397367">Fri, 19 Jun 2009 03:42:47 -0400</date>
+                <person id="61510">
+                  <name>KingRat</name>
+                  <url>http://www.librarything.com/profile/KingRat</url>
+                </person>
+                <factList>
+                  <fact>Nielsen Hayden, Patrick</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="34" name="events" displayName="Important events">
+            <versionList>
+              <version id="1494516" archived="0" lang="eng">
+                <date timestamp="1243869673">Mon, 01 Jun 2009 11:21:13 -0400</date>
+                <person id="517024">
+                  <name>aethercowboy</name>
+                  <url>http://www.librarything.com/profile/aethercowboy</url>
+                </person>
+                <factList>
+                  <fact>Peninsular War</fact>
+                  <fact>Napoleonic Wars</fact>
+                  <fact>Battle of Waterloo</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="23" name="series" displayName="Series">
+            <versionList>
+              <version id="915020" archived="0" lang="eng">
+                <date timestamp="1232521494">Wed, 21 Jan 2009 02:04:54 -0500</date>
+                <person id="28389">
+                  <name>WylieMaercklein</name>
+                  <url>http://www.librarything.com/profile/WylieMaercklein</url>
+                </person>
+                <factList>
+                  <fact>Clarke's Faerie Stories (1)</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="29" name="blurbers" displayName="Blurbers">
+            <versionList>
+              <version id="902293" archived="0" lang="eng">
+                <date timestamp="1232212596">Sat, 17 Jan 2009 12:16:36 -0500</date>
+                <person id="200103">
+                  <name>PhaedraB</name>
+                  <url>http://www.librarything.com/profile/PhaedraB</url>
+                </person>
+                <factList>
+                  <fact>Gaiman, Neil </fact>
+                  <fact>Palliser, Charles </fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="21" name="canonicaltitle" displayName="Canonical title">
+            <versionList>
+              <version id="705800" archived="0" lang="eng">
+                <date timestamp="1225654390">Sun, 02 Nov 2008 14:33:10 -0500</date>
+                <person id="61056">
+                  <name>amweb</name>
+                  <url>http://www.librarything.com/profile/amweb</url>
+                </person>
+                <factList>
+                  <fact>Jonathan Strange &amp; Mr Norrell</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="30" name="dedication" displayName="Dedication">
+            <versionList>
+              <version id="644458" archived="0" lang="eng">
+                <date timestamp="1222962793">Thu, 02 Oct 2008 11:53:13 -0400</date>
+                <person id="200103">
+                  <name>PhaedraB</name>
+                  <url>http://www.librarything.com/profile/PhaedraB</url>
+                </person>
+                <factList>
+                  <fact>&lt;![CDATA[ In memory of my brother, Paul Frederick Gunn Clarke, 1961-2000 ]]&gt;</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="26" name="lastwords" displayName="Last words">
+            <versionList>
+              <version id="523019" archived="0" lang="eng">
+                <date timestamp="1218425509">Sun, 10 Aug 2008 23:31:49 -0400</date>
+                <person id="23570">
+                  <name>conceptDawg</name>
+                  <url>http://www.librarything.com/profile/conceptDawg</url>
+                </person>
+                <factList>
+                  <fact>&lt;![CDATA[ Then he turned upon his heel and disappeared into the Darkness. ]]&gt;</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="25" name="firstwords" displayName="First words">
+            <versionList>
+              <version id="523018" archived="0" lang="eng">
+                <date timestamp="1218425423">Sun, 10 Aug 2008 23:30:23 -0400</date>
+                <person id="23570">
+                  <name>conceptDawg</name>
+                  <url>http://www.librarything.com/profile/conceptDawg</url>
+                </person>
+                <factList>
+                  <fact>&lt;![CDATA[ Some years ago there was in the city of York a society of magicians. ]]&gt;</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+          <field type="16" name="originalpublicationdate" displayName="Original publication date">
+            <versionList>
+              <version id="132984" archived="0" lang="eng">
+                <date timestamp="1198164481">Thu, 20 Dec 2007 10:28:01 -0500</date>
+                <person id="311651">
+                  <name>tom1066</name>
+                  <url>http://www.librarything.com/profile/tom1066</url>
+                </person>
+                <factList>
+                  <fact>2004-09-08</fact>
+                </factList>
+              </version>
+            </versionList>
+          </field>
+        </fieldList>
+      </commonknowledge>
+    </item>
+    <legal>By using this data you agree to the LibraryThing API terms of service.</legal>
+  </ltml>
+</response>

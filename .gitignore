@@ -17,6 +17,8 @@ tmtags
 coverage
 rdoc
 pkg
+doc
+.yardoc
 
 ## PROJECT::SPECIFIC
 credentials.rb
