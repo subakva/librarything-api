@@ -45,7 +45,7 @@ module LibraryThing
     end
   end
 
-  class Base
+  class Resource
     include HTTParty
     base_uri 'http://www.librarything.com/services/rest/1.0'
 
@@ -101,7 +101,7 @@ module LibraryThing
         elsif @get_method
           @get_method
         else
-          raise LibraryThing::Error.new('Try LibraryThing::Work.get or LibraryThing::Author.get')
+          raise LibraryThing::Error.new('Cannot get a generic resource. Try LibraryThing::Work.get or LibraryThing::Author.get')
         end
       end
 
